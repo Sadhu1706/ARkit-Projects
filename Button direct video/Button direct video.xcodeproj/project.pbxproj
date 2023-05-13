@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC07B213290F953F007C0AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B212290F953F007C0AF0 /* AppDelegate.swift */; };
+		DC07B215290F953F007C0AF0 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B214290F953F007C0AF0 /* ARViewController.swift */; };
+		DC07B217290F953F007C0AF0 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DC07B216290F953F007C0AF0 /* Experience.rcproject */; };
+		DC07B21A290F953F007C0AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC07B218290F953F007C0AF0 /* Main.storyboard */; };
+		DC07B21C290F9540007C0AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC07B21B290F9540007C0AF0 /* Assets.xcassets */; };
+		DC07B21F290F9540007C0AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC07B21D290F9540007C0AF0 /* LaunchScreen.storyboard */; };
+		DC07B229290F9540007C0AF0 /* Button_direct_videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B228290F9540007C0AF0 /* Button_direct_videoTests.swift */; };
+		DC07B233290F9540007C0AF0 /* Button_direct_videoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B232290F9540007C0AF0 /* Button_direct_videoUITests.swift */; };
+		DC07B235290F9540007C0AF0 /* Button_direct_videoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B234290F9540007C0AF0 /* Button_direct_videoUITestsLaunchTests.swift */; };
+		DC07B242290FA789007C0AF0 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07B241290FA789007C0AF0 /* VideoViewController.swift */; };
+		DC07B244290FBB84007C0AF0 /* photosynthesis.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DC07B243290FBB75007C0AF0 /* photosynthesis.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC07B225290F9540007C0AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC07B207290F953F007C0AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC07B20E290F953F007C0AF0;
+			remoteInfo = "Button direct video";
+		};
+		DC07B22F290F9540007C0AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC07B207290F953F007C0AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC07B20E290F953F007C0AF0;
+			remoteInfo = "Button direct video";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC07B20F290F953F007C0AF0 /* Button direct video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button direct video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC07B212290F953F007C0AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC07B214290F953F007C0AF0 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		DC07B216290F953F007C0AF0 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		DC07B219290F953F007C0AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC07B21B290F9540007C0AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC07B21E290F9540007C0AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC07B224290F9540007C0AF0 /* Button direct videoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button direct videoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC07B228290F9540007C0AF0 /* Button_direct_videoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_direct_videoTests.swift; sourceTree = "<group>"; };
+		DC07B22E290F9540007C0AF0 /* Button direct videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button direct videoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC07B232290F9540007C0AF0 /* Button_direct_videoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_direct_videoUITests.swift; sourceTree = "<group>"; };
+		DC07B234290F9540007C0AF0 /* Button_direct_videoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_direct_videoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC07B241290FA789007C0AF0 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		DC07B243290FBB75007C0AF0 /* photosynthesis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = photosynthesis.mp4; path = ../../../../Downloads/photosynthesis.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC07B20C290F953F007C0AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B221290F9540007C0AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B22B290F9540007C0AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC07B206290F953F007C0AF0 = {
+			isa = PBXGroup;
+			children = (
+				DC07B211290F953F007C0AF0 /* Button direct video */,
+				DC07B227290F9540007C0AF0 /* Button direct videoTests */,
+				DC07B231290F9540007C0AF0 /* Button direct videoUITests */,
+				DC07B210290F953F007C0AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC07B210290F953F007C0AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC07B20F290F953F007C0AF0 /* Button direct video.app */,
+				DC07B224290F9540007C0AF0 /* Button direct videoTests.xctest */,
+				DC07B22E290F9540007C0AF0 /* Button direct videoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC07B211290F953F007C0AF0 /* Button direct video */ = {
+			isa = PBXGroup;
+			children = (
+				DC07B212290F953F007C0AF0 /* AppDelegate.swift */,
+				DC07B214290F953F007C0AF0 /* ARViewController.swift */,
+				DC07B241290FA789007C0AF0 /* VideoViewController.swift */,
+				DC07B243290FBB75007C0AF0 /* photosynthesis.mp4 */,
+				DC07B216290F953F007C0AF0 /* Experience.rcproject */,
+				DC07B218290F953F007C0AF0 /* Main.storyboard */,
+				DC07B21B290F9540007C0AF0 /* Assets.xcassets */,
+				DC07B21D290F9540007C0AF0 /* LaunchScreen.storyboard */,
+			);
+			path = "Button direct video";
+			sourceTree = "<group>";
+		};
+		DC07B227290F9540007C0AF0 /* Button direct videoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC07B228290F9540007C0AF0 /* Button_direct_videoTests.swift */,
+			);
+			path = "Button direct videoTests";
+			sourceTree = "<group>";
+		};
+		DC07B231290F9540007C0AF0 /* Button direct videoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC07B232290F9540007C0AF0 /* Button_direct_videoUITests.swift */,
+				DC07B234290F9540007C0AF0 /* Button_direct_videoUITestsLaunchTests.swift */,
+			);
+			path = "Button direct videoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC07B20E290F953F007C0AF0 /* Button direct video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC07B238290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct video" */;
+			buildPhases = (
+				DC07B20B290F953F007C0AF0 /* Sources */,
+				DC07B20C290F953F007C0AF0 /* Frameworks */,
+				DC07B20D290F953F007C0AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Button direct video";
+			productName = "Button direct video";
+			productReference = DC07B20F290F953F007C0AF0 /* Button direct video.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC07B223290F9540007C0AF0 /* Button direct videoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC07B23B290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct videoTests" */;
+			buildPhases = (
+				DC07B220290F9540007C0AF0 /* Sources */,
+				DC07B221290F9540007C0AF0 /* Frameworks */,
+				DC07B222290F9540007C0AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC07B226290F9540007C0AF0 /* PBXTargetDependency */,
+			);
+			name = "Button direct videoTests";
+			productName = "Button direct videoTests";
+			productReference = DC07B224290F9540007C0AF0 /* Button direct videoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC07B22D290F9540007C0AF0 /* Button direct videoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC07B23E290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct videoUITests" */;
+			buildPhases = (
+				DC07B22A290F9540007C0AF0 /* Sources */,
+				DC07B22B290F9540007C0AF0 /* Frameworks */,
+				DC07B22C290F9540007C0AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC07B230290F9540007C0AF0 /* PBXTargetDependency */,
+			);
+			name = "Button direct videoUITests";
+			productName = "Button direct videoUITests";
+			productReference = DC07B22E290F9540007C0AF0 /* Button direct videoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC07B207290F953F007C0AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DC07B20E290F953F007C0AF0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DC07B223290F9540007C0AF0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DC07B20E290F953F007C0AF0;
+					};
+					DC07B22D290F9540007C0AF0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DC07B20E290F953F007C0AF0;
+					};
+				};
+			};
+			buildConfigurationList = DC07B20A290F953F007C0AF0 /* Build configuration list for PBXProject "Button direct video" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC07B206290F953F007C0AF0;
+			productRefGroup = DC07B210290F953F007C0AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC07B20E290F953F007C0AF0 /* Button direct video */,
+				DC07B223290F9540007C0AF0 /* Button direct videoTests */,
+				DC07B22D290F9540007C0AF0 /* Button direct videoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC07B20D290F953F007C0AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07B244290FBB84007C0AF0 /* photosynthesis.mp4 in Resources */,
+				DC07B21F290F9540007C0AF0 /* LaunchScreen.storyboard in Resources */,
+				DC07B21C290F9540007C0AF0 /* Assets.xcassets in Resources */,
+				DC07B21A290F953F007C0AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B222290F9540007C0AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B22C290F9540007C0AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC07B20B290F953F007C0AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07B215290F953F007C0AF0 /* ARViewController.swift in Sources */,
+				DC07B213290F953F007C0AF0 /* AppDelegate.swift in Sources */,
+				DC07B242290FA789007C0AF0 /* VideoViewController.swift in Sources */,
+				DC07B217290F953F007C0AF0 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B220290F9540007C0AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07B229290F9540007C0AF0 /* Button_direct_videoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07B22A290F9540007C0AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07B233290F9540007C0AF0 /* Button_direct_videoUITests.swift in Sources */,
+				DC07B235290F9540007C0AF0 /* Button_direct_videoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC07B226290F9540007C0AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC07B20E290F953F007C0AF0 /* Button direct video */;
+			targetProxy = DC07B225290F9540007C0AF0 /* PBXContainerItemProxy */;
+		};
+		DC07B230290F9540007C0AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC07B20E290F953F007C0AF0 /* Button direct video */;
+			targetProxy = DC07B22F290F9540007C0AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC07B218290F953F007C0AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC07B219290F953F007C0AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC07B21D290F9540007C0AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC07B21E290F9540007C0AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC07B236290F9540007C0AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC07B237290F9540007C0AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC07B239290F9540007C0AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC07B23A290F9540007C0AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-video";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC07B23C290F9540007C0AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-videoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button direct video.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Button direct video";
+			};
+			name = Debug;
+		};
+		DC07B23D290F9540007C0AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-videoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button direct video.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Button direct video";
+			};
+			name = Release;
+		};
+		DC07B23F290F9540007C0AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-videoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Button direct video";
+			};
+			name = Debug;
+		};
+		DC07B240290F9540007C0AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN7SN9FS2G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadhun.Button-direct-videoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Button direct video";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC07B20A290F953F007C0AF0 /* Build configuration list for PBXProject "Button direct video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC07B236290F9540007C0AF0 /* Debug */,
+				DC07B237290F9540007C0AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC07B238290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC07B239290F9540007C0AF0 /* Debug */,
+				DC07B23A290F9540007C0AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC07B23B290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct videoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC07B23C290F9540007C0AF0 /* Debug */,
+				DC07B23D290F9540007C0AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC07B23E290F9540007C0AF0 /* Build configuration list for PBXNativeTarget "Button direct videoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC07B23F290F9540007C0AF0 /* Debug */,
+				DC07B240290F9540007C0AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC07B207290F953F007C0AF0 /* Project object */;
+}
